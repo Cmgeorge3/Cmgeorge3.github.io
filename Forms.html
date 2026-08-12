@@ -1,0 +1,49 @@
+<form action="https://formspree.io/f/mvkpaevy" method="POST">
+
+  <table border="1">
+    <tr>
+      <th>Job Type</th>
+      <th>Price $ per Task</th>
+    </tr>
+
+    <tr>
+      <td>Oil Change (upcharge without oil and filter)</td>
+      <td>$80</td>
+    </tr>
+
+    <tr>
+      <td>Brakes (upcharge if I need to get them)</td>
+      <td>$350</td>
+    </tr>
+
+    <tr>
+      <td>Tire Rotation (prices vary depending on car model)</td>
+      <td>$30-$60</td>
+    </tr>
+  </table>
+
+  <br>
+
+  <label for="jobType">Choose Job Type:</label>
+  <select id="jobType" name="jobType" required>
+    <option value="">-- Select a Job --</option>
+    <option value="Oil Change">Oil Change</option>
+    <option value="Brakes">Brakes</option>
+    <option value="Tire Rotation">Tire Rotation</option>
+  </select>
+
+  <br><br>
+
+  <label for="dropoffDate">Expected Dropoff/Pickup Date:</label>
+  <input type="date" id="dropoffDate" name="dropoffDate" required>
+
+  <br><br>
+
+  <label for="dropoffTime">Expected Dropoff/Pickup Time:</label>
+  <input type="time" id="dropoffTime" name="dropoffTime" required>
+
+  <br><br>
+
+  <button type="submit">Submit Form</button>
+
+</form>
