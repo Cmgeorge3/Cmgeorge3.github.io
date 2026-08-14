@@ -1,6 +1,6 @@
 <form action="https://formspree.io/f/mvkpaevy" method="POST">
 
-  <table border="1">
+  <table border="3">
     <tr>
       <th>Job Type</th>
       <th>Price $ per Task</th>
@@ -33,6 +33,14 @@
   </select>
 
   <br><br>
+  <label for="Dropoff or Mobile Services"> Choose Mobile or Dropoff Services:</label>
+  <select id="Service Types" name="Service Types" required>
+    <option value="">-- Select Service Type --</option>
+    <option value="Come To me">Come To me</option>
+    <option value="Come to you(upCharge)">Come to you(upCharge)</option>
+    </select>
+
+  <br><br>
 
   <label for="dropoffDate">Expected Dropoff/Pickup Date:</label>
   <input type="date" id="dropoffDate" name="dropoffDate" required>
@@ -42,8 +50,18 @@
   <label for="dropoffTime">Expected Dropoff/Pickup Time:</label>
   <input type="time" id="dropoffTime" name="dropoffTime" required>
 
-<br><br>
+  <br><br>
+
+  <label for="Address if Applicable (n/a if not)">Address if Applicable(n/a if not):</label>
+  <input type="text" id="Address" name="Address" required>
+
+  <br><br>
+
   <label for="Make/Model/Year">Make/Model/Year:</label>
+  <input type="text" id="text" name="text" required>
+  <br><br>
+
+  <label for="Contact Info">Contact Info (Phone # or Email):</label>
   <input type="text" id="text" name="text" required>
   <br><br>
 
