@@ -1,70 +1,241 @@
-<form action="https://formspree.io/f/mvkpaevy" method="POST">
 
-  <table border="3">
-    <tr>
-      <th>Job Type</th>
-      <th>Price $ per Task</th>
-    </tr>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <tr>
-      <td>Oil Change (upcharge without oil and filter)</td>
-      <td>$80</td>
-    </tr>
+  <title>Auto Service Form</title>
 
-    <tr>
-      <td>Brakes (upcharge if I need to get them)</td>
-      <td>$350</td>
-    </tr>
+  <style>
+    body {
+      font-family: "Comic Sans MS", cursive;
+      margin: 0;
+      padding: 20px;
+    }
 
-    <tr>
-      <td>Tire Rotation (prices vary depending on car model)</td>
-      <td>$30-$60</td>
-    </tr>
-  </table>
+    /* Holds the form and image side-by-side */
+    .page-container {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 40px;
+      max-width: 1400px;
+      margin: 0 auto;
+    }
 
-  <br>
+    /* Form section */
+    .form-container {
+      flex: 1;
+    }
 
-  <label for="jobType">Choose Job Type:</label>
-  <select id="jobType" name="jobType" required>
-    <option value="">-- Select a Job --</option>
-    <option value="Oil Change">Oil Change</option>
-    <option value="Brakes">Brakes</option>
-    <option value="Tire Rotation">Tire Rotation</option>
-  </select>
+    /* Image section */
+    .image-container {
+      flex: 1;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+    }
 
-  <br><br>
-  <label for="Dropoff or Mobile Services"> Choose Mobile or Dropoff Services:</label>
-  <select id="Service Types" name="Service Types" required>
-    <option value="">-- Select Service Type --</option>
-    <option value="Come To me">Come To me</option>
-    <option value="Come to you(upCharge)">Come to you(upCharge)</option>
-    </select>
+    .right-image {
+      width: 100%;
+      max-width: 800px;
+      height: 800px;
+      object-fit: fill;
+      border: 2px solid black;
+    }
 
-  <br><br>
+    /* Submit button */
+    button {
+      transition: background-color 1s ease;
+      color: black;
+      background-color: white;
+      padding: 10px 20px;
+      border: 5px solid black;
+      cursor: pointer;
+    }
 
-  <label for="dropoffDate">Expected Dropoff/Pickup Date:</label>
-  <input type="date" id="dropoffDate" name="dropoffDate" required>
+    button:hover {
+      background-color: cyan;
+    }
 
-  <br><br>
+    /* Makes the page work better on phones */
+    @media (max-width: 800px) {
+      .page-container {
+        flex-direction: column;
+      }
 
-  <label for="dropoffTime">Expected Dropoff/Pickup Time:</label>
-  <input type="time" id="dropoffTime" name="dropoffTime" required>
+      .image-container {
+        width: 100%;
+      }
 
-  <br><br>
+      .right-image {
+        max-width: 100%;
+      }
+    }
+  </style>
+</head>
 
-  <label for="Address if Applicable (n/a if not)">Address if Applicable(n/a if not):</label>
-  <input type="text" id="Address" name="Address" required>
+<body>
 
-  <br><br>
+  <div class="page-container">
 
-  <label for="Make/Model/Year">Make/Model/Year:</label>
-  <input type="text" id="text" name="text" required>
-  <br><br>
+    <!-- FORM ON THE LEFT -->
+    <div class="form-container">
 
-  <label for="Contact Info">Contact Info (Phone # or Email):</label>
-  <input type="text" id="text" name="text" required>
-  <br><br>
+      <form action="https://formspree.io/f/mvkpaevy" method="POST">
 
-  <button type="submit">Submit Form</button>
+        <table border="3">
+          <tr>
+            <th>Job Type</th>
+            <th>Price $ per Task</th>
+          </tr>
 
-</form>
+          <tr>
+            <td>Oil Change (upcharge without oil and filter)</td>
+            <td>$80</td>
+          </tr>
+
+          <tr>
+            <td>Brakes (upcharge if I need to get them)</td>
+            <td>$350</td>
+          </tr>
+
+          <tr>
+            <td>Tire Rotation (prices vary depending on car model)</td>
+            <td>$30-$60</td>
+          </tr>
+        </table>
+
+        <br>
+
+        <b>
+          <label for="jobType">Choose Job Type:</label>
+          <select id="jobType" name="jobType" required>
+            <option value="">-- Select a Job --</option>
+            <option value="Oil Change">Oil Change</option>
+            <option value="Brakes">Brakes</option>
+            <option value="Tire Rotation">Tire Rotation</option>
+          </select>
+        </b>
+
+        <br><br>
+
+        <b>
+          <label for="serviceTypes">
+            Choose Mobile or Dropoff Services:
+          </label>
+
+          <select id="serviceTypes" name="serviceTypes" required>
+            <option value="">-- Select Service Type --</option>
+            <option value="Come To me">Come To me</option>
+            <option value="Come to you(upCharge)">
+              Come to you (upCharge)
+            </option>
+          </select>
+        </b>
+
+        <br><br>
+
+        <b>
+          <label for="dropoffDate">
+            Expected Dropoff/Pickup Date:
+          </label>
+
+          <input
+            type="date"
+            id="dropoffDate"
+            name="dropoffDate"
+            required
+          >
+        </b>
+
+        <br><br>
+
+        <b>
+          <label for="dropoffTime">
+            Expected Dropoff/Pickup Time:
+          </label>
+
+          <input
+            type="time"
+            id="dropoffTime"
+            name="dropoffTime"
+            required
+          >
+        </b>
+
+        <br><br>
+
+        <b>
+          <label for="address">
+            Address if Applicable (n/a if not):
+          </label>
+
+          <input
+            type="text"
+            id="address"
+            name="address"
+            required
+          >
+        </b>
+
+        <br><br>
+
+        <b>
+          <label for="vehicle">
+            Make/Model/Year:
+          </label>
+
+          <input
+            type="text"
+            id="vehicle"
+            name="vehicle"
+            required
+          >
+        </b>
+
+        <br><br>
+
+        <b>
+          <label for="contactInfo">
+            Contact Info (Phone # or Email):
+          </label>
+
+          <input
+            type="text"
+            id="contactInfo"
+            name="contactInfo"
+            required
+          >
+        </b>
+
+        <br><br>
+
+        <b>
+          <button type="submit">
+            Submit Form
+          </button>
+        </b>
+
+      </form>
+
+    </div>
+
+
+    <!-- IMAGE ON THE RIGHT -->
+    <div class="image-container">
+
+      <img
+        src="C:\Users\georg\OneDrive\Desktop\Chris' Car Care(CCC)\form_img1.png"
+        alt="Automotive service"
+        class="right-image"
+      >
+
+    </div>
+
+  </div>
+
+</body>
+</html>
+
