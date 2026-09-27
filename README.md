@@ -1,47 +1,42 @@
-# Photography Business
 
-### Professional Photography Services
 
-Capture your special moments with professional photography services tailored to your needs.
-Check out some of my work on Instagram:
-<img width="17" height="27" alt="image" src="https://github.com/user-attachments/assets/661695a5-79a0-4e2e-b3d3-87ff119e88fb" />@spideys_view
+# Photography Services
 
-## Services Offered
+### Professional Photography for Every Occasion
 
-* **Portrait Photography**
-* **Event Photography**
-* **Family Photography**
-* **Professional/Business Photography**
-* **Special Occasion Photography**
+Capture your moments with affordable photography services designed for individuals, groups, and special occasions.
+Check out some of my work on Instagram: @spideys_view
+
+## Photography Services Offered
+
+* **Full Body / Landscape Photography (3 Photos)** — $8
+* **Headshots (5 Photos)** — $15
+* **Group Photos (10 Photos)** — $20
 
 ## Service Options
 
-Choose the service option that works best for your photography session:
+Choose between two photography service options:
 
-* **Client Location** — I come to your location for the photography session.
-* **Photographer Location** — Come to my designated photography location.
+* **Come to Me** — Have your photos taken at the photographer's local location.
+* **Come to You** — The photographer comes to your selected location.
 
-## Request a Photography Session
+## Photo Session Information
 
-Use the service request form to select the type of photography service you need and provide the necessary details for your session.
+When requesting a photography session, please provide:
 
-The form asks for:
+* **Type of Photography** — Full Body, Headshot, or Group
+* **Service Location** — Come to Me or Come to You
+* **Venue Address** — The location where the photography session will take place
 
-* **Photography Service Type**
-* **Session Location**
-* **Address**, if applicable
-* **Client/Session Information**
+## Confirm Your Photo Session
 
-After submitting your request, please contact the photographer to confirm the date, time, and details of your photography session.
+After submitting the form, please call **(252)-499-0867** to confirm your photography date and photo session.
 
-## Contact Information
+## Request a Photo Session
 
-📞 **Phone:** (252)-499-0867
+Select your desired photography service, choose your preferred service location, enter the venue address, and submit the form.
 
-Please call to confirm your photography session date and time.
-
-## Request a Session
-
+**Submit the form to request your photography session.**
 Visit our **[Photography Service Request Form](Forms.html)** to request a photography session.
 
-### Capture the Moment. Preserve the Memory.
+### Capture the Moment. Keep the Memory.
