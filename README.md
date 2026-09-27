@@ -3,7 +3,8 @@
 ### Professional Photography Services
 
 Capture your special moments with professional photography services tailored to your needs.
-Check out some of my work on Instagram<img width="148" height="148" alt="image" src="https://github.com/user-attachments/assets/e1556f6c-0f8a-4c42-a29a-d180341640d8" />
+Check out some of my work on Instagram<img width="177" height="180" alt="image" src="https://github.com/user-attachments/assets/661695a5-79a0-4e2e-b3d3-87ff119e88fb" />
+
 : @spideys_view
 
 ## Services Offered
